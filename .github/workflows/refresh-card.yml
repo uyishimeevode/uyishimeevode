@@ -1,6 +1,6 @@
 # gh-ascii — daily card refresh
 #
-# Place this file in your profile repo (github.com/Judamrtn/Judamrtn) at:
+# Place this file in your profile repo (github.com/uyishimeevode/uyishimeevode) at:
 #   .github/workflows/refresh-card.yml
 #
 # Committed SVGs are a frozen snapshot: stars, followers, and uptime drift
@@ -34,8 +34,8 @@ jobs:
 
       - name: Download latest cards
         run: |
-          curl -fL "https://gh.crafter.run/Judamrtn?theme=dark"  -o dark_mode.svg
-          curl -fL "https://gh.crafter.run/Judamrtn?theme=light" -o light_mode.svg
+          curl -fL "https://gh.crafter.run/uyishimeevode?theme=dark"  -o dark_mode.svg
+          curl -fL "https://gh.crafter.run/uyishimeevode?theme=light" -o light_mode.svg
 
       - name: Commit if changed
         run: |
